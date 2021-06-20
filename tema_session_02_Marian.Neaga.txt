@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Tema2 {
+    public static void main(String[] args) {
+
+        double inaltimea;
+        int masa;
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("inaltimea =");
+        inaltimea=sc.nextDouble();
+        System.out.println("masa =");
+        masa=sc.nextInt();
+        double indice=masa/patrat(inaltimea);
+        System.out.println("indice = "+ indice);
+    }
+
+    private static double patrat(double a){
+        return a*a;
+    }
+}
