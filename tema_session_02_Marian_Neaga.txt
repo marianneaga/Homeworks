@@ -4,13 +4,13 @@ public class Tema2 {
     public static void main(String[] args) {
 
         double inaltimea;
-        int masa;
+        double masa;
 
         Scanner sc=new Scanner(System.in);
         System.out.println("inaltimea =");
         inaltimea=sc.nextDouble();
         System.out.println("masa =");
-        masa=sc.nextInt();
+        masa=sc.nextDouble();
         double indice=masa/patrat(inaltimea);
         System.out.println("indice = "+ indice);
     }
